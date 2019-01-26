@@ -1,0 +1,17 @@
+{
+  "name": "查看网络连接",
+  "name_en": "netstat",
+  "main": "index.js",
+  "icon": "fa fa-signal",
+  "version": "0.1",
+  "description": "无命令执行权限下获取网络连接情况",
+  "description_en": "",
+  "author": {
+    "name": "Medici.Yan",
+    "email": "Medici.Yan@gmail.com"
+  },
+  "category": "信息获取",
+  "category_en": "information",
+  "multiple": false,
+  "scripts": ["php"]
+}
