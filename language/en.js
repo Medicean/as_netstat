@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   manual: {
-    title: (path)=> `Paste the content in ${path}`,
+    title: (path)=> antSword.noxss(`Paste the content in ${path}`),
     toolbar: {
       label: 'INET Type',
       save: 'Parse'
