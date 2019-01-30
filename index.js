@@ -135,14 +135,14 @@ class Plugin {
 
     let toolbar = _win.win.attachToolbar();
     toolbar.loadStruct([
-      { id: 'inet_type_label', type: 'text', text: LANG['manual']['label'] },
+      { id: 'inet_type_label', type: 'text', text: LANG['manual']['toolbar']['label'] },
       { id: 'inet_type', type: 'buttonSelect', mode: 'select', selected: inet_type, width: 100,
         options: [
           { id: 'tcp4', type: 'button', icon: 'hashtag', text: 'TCP4'},
           { id: 'udp4', type: 'button', icon: 'hashtag', text: 'UDP4'},
         ]
       },
-      { id: 'save', type: 'button', icon: 'check', text: LANG['manual']['save'],}
+      { id: 'save', type: 'button', icon: 'check', text: LANG['manual']['toolbar']['save'],}
     ]);
 
     toolbar.attachEvent('onClick', (id) => {
