@@ -275,7 +275,7 @@ const TCP_STATUS_MAPPING = {
 
 function Inet4Addr(addr) {
   let l = addr.split(":");
-  let ip = new Buffer(l[0], "hex").reverse().join(".").toString();
+  let ip = Buffer.from(l[0], "hex").reverse().join(".").toString();
   let port = parseInt(l[1], 16);
   return ip+":"+port;
 }
