@@ -2,9 +2,14 @@
 
 > AntSword 查看网络连接状态插件
 
-在目标主机「禁止了命令执行」或者「没有 netstat 命令」的时候，可通过该插件查看 Linux目标系统连接情况。
+在目标主机「禁止了命令执行」或者「没有 netstat 命令」的时候，可通过该插件查看目标系统网络连接情况。
 
 同时也支持解析通过其它方式获取到的 `/proc/net/tcp`、`/proc/net/udp` 文件内容
+
+## Support
+
+* Linux (All Core Type)
+* Windows ( ASPX )
 
 ## 演示
 

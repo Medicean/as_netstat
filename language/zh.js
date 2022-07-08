@@ -8,7 +8,7 @@ module.exports = {
       tcp4: '获取 tcp4 连接信息',
       udp4: '获取 udp4 连接信息',
       start: '获取',
-      manual: '手动输入',
+      manual: '手动输入(Linux)',
       clear: '清空',
     },
   },
@@ -20,6 +20,7 @@ module.exports = {
     },
   },
   msg: {
+    winnotsupport: "Windows 下暂不支持该类型",
     onlylinux: "仅支持 Linux 操作系统的Shell",
     emptyselect: "至少选择一种类型",
     empty: "请填写完整",
